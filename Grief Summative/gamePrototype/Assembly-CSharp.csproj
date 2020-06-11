@@ -63,46 +63,91 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\camera.cs" />
-    <Compile Include="Assets\follow.cs" />
-    <Compile Include="Assets\friend.cs" />
-    <Compile Include="Assets\glass.cs" />
-    <Compile Include="Assets\hidden.cs" />
-    <Compile Include="Assets\move.cs" />
-    <Compile Include="Assets\movement.cs" />
-    <Compile Include="Assets\notice.cs" />
-    <Compile Include="Assets\orbit.cs" />
-    <Compile Include="Assets\parent.cs" />
-    <Compile Include="Assets\pressure.cs" />
-    <Compile Include="Assets\rotate.cs" />
-    <Compile Include="Assets\spike.cs" />
-    <Compile Include="Assets\wayPoint.cs" />
+    <Compile Include="Assets\Scripts\camera.cs" />
+    <Compile Include="Assets\Scripts\follow.cs" />
+    <Compile Include="Assets\Scripts\friend.cs" />
+    <Compile Include="Assets\Scripts\glass.cs" />
+    <Compile Include="Assets\Scripts\hidden.cs" />
+    <Compile Include="Assets\Scripts\move.cs" />
+    <Compile Include="Assets\Scripts\movement.cs" />
+    <Compile Include="Assets\Scripts\notice.cs" />
+    <Compile Include="Assets\Scripts\orbit.cs" />
+    <Compile Include="Assets\Scripts\parent.cs" />
+    <Compile Include="Assets\Scripts\pressure.cs" />
+    <Compile Include="Assets\Scripts\rotate.cs" />
+    <Compile Include="Assets\Scripts\spike.cs" />
+    <Compile Include="Assets\Scripts\wayPoint.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Users/845837578/Desktop/gamePrototype/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Users/845837578/Desktop/gamePrototype/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Users/845837578/Desktop/gamePrototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Users/845837578/Desktop/gamePrototype/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Users/845837578/Desktop/gamePrototype/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Users/845837578/Desktop/gamePrototype/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Users/845837578/Desktop/gamePrototype/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Users/845837578/Desktop/gamePrototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Users/845837578/Desktop/gamePrototype/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Users/845837578/Documents/GitHub/grief-groupsummaive/Grief Summative/gamePrototype/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
